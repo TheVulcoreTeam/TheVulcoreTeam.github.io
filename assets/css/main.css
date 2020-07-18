@@ -215,6 +215,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		background-color: white;
 	}
 
 		.row > * {
@@ -2116,7 +2117,7 @@ input, select, textarea {
 		position: relative;
 		background: #252021;
 		border-bottom: solid 1px #ccc;
-		padding: 1em 0 1em 0;
+		padding: 1em 0 0 0;
 		text-align: center;
 	}
 /* Logo */		
@@ -2321,7 +2322,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		background: #f7f7f7 url("images/bg02.png");
-		padding: 4em 0 1em 0;
+		padding: 49px 0 1em 0;
 	}
 
 		#main:before {
@@ -2335,10 +2336,10 @@ input, select, textarea {
 			z-index: 0;
 			opacity: 0.1;
 		}
-
+/* 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
-		}
+			background: #f7f7f7 url("images/bg02.png"); 
+		}*/
 
 /* Footer */
 
@@ -2386,7 +2387,11 @@ input, select, textarea {
 			#footer header h2 {
 				font-size: 1.75em;
 			}
-
+		
+		#footer-container {
+			background-color: #252122;
+		}
+	
 /* Copyright */
 
 	#copyright {
