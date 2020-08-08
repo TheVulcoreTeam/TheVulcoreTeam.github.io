@@ -2116,7 +2116,7 @@ input, select, textarea {
 	#header {
 		position: relative;
 		background: #252021;
-		border-bottom: solid 1px #ccc;
+		/* border-bottom: solid 1px #ccc; */
 		padding: 1em 0 0 0;
 		text-align: center;
 	}
@@ -2137,7 +2137,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		margin: 1.5em 0 0 0;
+		margin: 1.5em 0;
 	}
 
 		#nav > ul {
@@ -2228,7 +2228,8 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: rgb(37,32,33);
+		background: radial-gradient(circle, rgba(37,32,33,1) 0%, rgba(213,35,64,1) 50%, rgba(37,32,33,1) 100%);
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
