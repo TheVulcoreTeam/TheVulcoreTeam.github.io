@@ -216,6 +216,7 @@ input, select, textarea {
 		box-sizing: border-box;
 		align-items: stretch;
 		background-color: white;
+		margin-top: -20px;
 	}
 
 		.row > * {
@@ -2957,3 +2958,11 @@ input, select, textarea {
 			}
 
 	}
+
+.image-featured {
+	margin-top: 1em;
+}
+
+.main-row {
+	background: none;
+}
