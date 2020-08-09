@@ -1998,7 +1998,7 @@ input, select, textarea {
 					}
 
 				.artstation {
-					background-image: url("images/artstation.png");
+					background-image: url("images/artStation.png");
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: cover;
@@ -2007,7 +2007,7 @@ input, select, textarea {
 				}
 
 					.artstation:hover {
-						background-image: url("images/artstationhover.png");
+						background-image: url("images/artStationhover.png");
 					}
 
 				.sketchfab {
