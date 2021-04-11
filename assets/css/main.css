@@ -2323,7 +2323,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: white;
 		padding: 49px 0 1em 0;
 	}
 
@@ -2338,7 +2338,7 @@ input, select, textarea {
 			z-index: 0;
 			opacity: 0.1;
 		}
-/* 
+		/* 
 		#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png"); 
 		}*/
